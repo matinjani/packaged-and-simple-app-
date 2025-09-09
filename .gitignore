@@ -1,27 +1,10 @@
-# Virtual environment
-.venv/
-venv/
+# Ignore everything
+*
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# But not these files
+!README.md
+!*/README.md
+!*/main.py
 
-# Distribution / packaging
-*.egg-info/
-*.dist-info/
-build/
-dist/
-
-# IDE files
-.vscode/
-.idea/
-
-# OS junk files
-.DS_Store
-Thumbs.db
-
-# Secrets
-.env
-*.secret
+# Git still needs to track directories, so don't ignore them
+!*/
